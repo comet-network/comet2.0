@@ -133,11 +133,11 @@ body{
 #text{
     position: absolute;
     color: #fff;
-    font-size: 55px;
+    font-size: 105px;
     white-space:nowrap;
     z-index: 12;
     top: 25%;
-    left: 35%;
+    left: 23%;
 }
 /* @media screen and (max-width:820px){#planet{
     
@@ -150,14 +150,14 @@ body{
    height: 60vh;
 }} */
 @media screen and (max-width:820px){#text{
-    font-size: 68px;
+    font-size: 88px;
     top: 25%;
-    left: 20%;
+    left: 12%;
 }}
 @media screen and (max-width:768px){#text{
-    font-size: 58px;
+    font-size: 78px;
     top: 25%;
-    left: 25%;
+    left: 16%;
 }}
 @media screen and (max-width:600px){#text{
     font-size: 38px;
@@ -350,11 +350,11 @@ body{
 }
 .name{
     float: left;
-    width: 350px;
+    width: 49%;
 }
 .email{
     float: right;
-    width: 350px;
+    width: 49%;
 }
 .message{
     min-width: 100%;
