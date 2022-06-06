@@ -51,8 +51,9 @@
             </div>
         </nav>
         <section class="header-section">
-            <img src="vecter/star.png" id="stars">
+            <!-- <img src="vecter/star.png" id="stars"> -->
             <img src="vecter/comet_front.png" id="comet_front">
+            <img src="vecter/comet_front.png" id="comet_front2">
             <h2 id="text">Co-met Network</h2>
             <!-- <img src="vecter/planet9.png" id="planet"> -->
         </section>
@@ -227,14 +228,17 @@
     <script>
         let stars = document.getElementById('stars');
         let comet_front = document.getElementById('comet_front');
+        let comet_front2 = document.getElementById('comet_front2');
 
         window.addEventListener('scroll', function () {
             let value = window.scrollY;
-            stars.style.right = value * 0.5 + 'px';
-            stars.style.top = value * 0.5 + 'px';
+            comet_front.style.opacity = "1";
+            comet_front.style.right = value * 1.5 + 'px';
+            comet_front.style.top = value * 0.8 + 'px';
 
-            comet_front.style.right = value * 1.0 + 'px';
-            comet_front.style.top = value * -1.0 + 'px';
+            comet_front2.style.opacity = "1";
+            comet_front2.style.right = value * 1.8 + 'px';
+            comet_front2.style.top = value * 0.8 + 'px';
         })
     </script>
 
